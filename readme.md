@@ -8,7 +8,7 @@ this a chrome extention designed to help converting binary and hex. It also has 
 
 # How to install:
 
-1. download the zip and extract the folder
+1. download the zip and extract the folder ([download](https://github.com/acetheking987/binary-and-hex-converter-chrome-extention/archive/refs/heads/master.zip))
 2. go to the extentions manager in google chrome (top right of chrome, looks like a puzzle peice)
 3. enable developer mode (also top right)
 4. click load unpacked (top left)
