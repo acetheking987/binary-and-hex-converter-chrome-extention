@@ -1,5 +1,6 @@
 body {
     min-width:200px;
+    max-width: 200px;
     background-color: azure;
 }
 
@@ -21,5 +22,29 @@ input[type=button] {
 }
 
 h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
     text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
 }

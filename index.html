@@ -4,17 +4,40 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <h2>input:</h2>
-    <input id="input" type="text">
-    <h2>output:</h2>
-    <input id="output" type="text">
-    <br>
-    <input type="button" value="hex to bin" id="htb">
-    <input type="button" value="bin to hex" id="bth">
-    <input type="button" value="hex to num" id="htn">
-    <input type="button" value="num to hex" id="nth">
-    <input type="button" value="num to bin" id="ntb">
-    <input type="button" value="bin to num" id="btn">
+    <div class="shown" id="number converter">
+        <h1>Number Converter:</h1>
+        <h2>input:</h2>
+        <input id="input" type="text">
+        <h2>output:</h2>
+        <input id="output" type="text">
+        <h2>convert from:</h2>
+        <select id="from">
+            <option value="2">binary</option>
+            <option value="10">decimal</option>
+            <option value="16">hexadecimal</option>
+        </select>
+        <h2>convert to:</h2>
+        <select id="to">
+            <option value=2>binary</option>
+            <option value=10>decimal</option>
+            <option value=16>hexadecimal</option>
+        </select>
+        <input type="button" value="convert" id="convert">
+
+    </div>
+    <div class="hidden" id="binary shift">
+        <h1>Binary Shift:</h1>
+        <h2>input:</h2>
+        <input id="shiftinput" type="text">
+        <h2>amount:</h2>
+        <input id="shiftamount" type="text">
+        <h2>output:</h2>
+        <input id="shiftoutput" type="text">
+        <br>
+        <input type="button" value="shift right" id="rightshift">
+        <input type="button" value="shift left" id="leftshift">
+    </div>
+    <input type="button" value="mode" id="mode">
 </body>
     <script src="main.js"></script>
 </html>
